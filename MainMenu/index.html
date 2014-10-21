@@ -4,10 +4,10 @@
         <title>LATSD</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="../css/style.css">
-        <script src="../js/jquery-1.11.1.min.js"></script>
-        <script src="../js/scripts.js"></script>
-        
+    
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery-1.11.1.min.js"></script>
+  
         <!-- BOOTSTRAP -->
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -17,28 +17,67 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <!-- BOOTSTRAP -->
         
+        <script src="js/scripts.js"></script>
+        
     </head>
     <body>
         <div class="container-fixed">
             <div id="menu">
-                <div class="manu-icon">icon</div>
-                <div class="manu-icon">icon</div>
-                <div class="manu-icon">icon</div>
-                <div class="manu-icon">icon</div>  
+                <button type="button" class="btn btn-default menu-icon-1" 
+                        data-toggle="tooltip" data-placement="right" title="Tooltip on right">1</button>
+                <button type="button" class="btn btn-default menu-icon-2" 
+                        data-toggle="tooltip" data-placement="right" title="font-option">2</button>
+                <button type="button" class="btn btn-default menu-icon-3" 
+                        data-toggle="tooltip" data-placement="right" title="Tooltip on right">3</button>
+                <button type="button" class="btn btn-default menu-icon-4" 
+                        data-toggle="tooltip" data-placement="right" title="Tooltip on right">4</button>
                 
-                <div class="zoom">Zoom <span>100%</span>
-                    <div class="zoom-buttons">
-                        <span>-</span>
-                        <span>+</span>
-                    </div>
+                <!-- Zoom, Tanya -->
+                <div class="zoom">
+                    
                 </div>
+                <!--//-->
             </div>
+            
+            <!-- Font Option, Katya -->
+            <div id="font-option">
+                font options
+            </div>
+            <!--//-->
+            
             
             
             <div id="content">
-                <div class="color">Product color <div></div></div>
-                <p><a href="#" class="btn btn-large btn-success" >Proceed to Quote</a></p>
+                
+                <!-- Initial View, Tanya -->
+                <div id="initial-view">
+                    initial view
+                    <a class="btn btn-success btn-large" id="quote">Proceed to Quote</a>
+                </div>
+                <!--//-->
+                
+                <!-- Product View, Maryna -->
+                <div id="product-view">
+                    <div class="glyphicon-top">
+                        <i class="glyphicon glyphicon-search"></i>
+                        <i class="glyphicon glyphicon-remove-circle"></i>
+                    </div>
+                    
+                    select product 
+                </div>
+                <!--//-->
+                
+                <!-- Get Guote View, Lena -->
+                <div id="get-quote-view">
+                    <i class="glyphicon glyphicon-remove-circle"></i>
+                    get-quote-view
+                </div>
+                <!--//-->
+                
+                
+              
             </div>
+            
 
         </div>
 
