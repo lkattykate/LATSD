@@ -92,6 +92,7 @@ body{
     float: left;
     background-color: rgb(77,77,77);
     padding: 10px;
+    position: relative;
 }
 
 #font-option, #product-view, #get-quote-view{
@@ -106,7 +107,7 @@ body{
     cursor: pointer;
 }
 
-#get-quote-view .glyphicon{
+#get-quote-view .glyphicon, #font-option .glyphicon{
     position: absolute;
     right: 10px;
     top: 10px;

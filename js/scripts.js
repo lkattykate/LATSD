@@ -39,6 +39,7 @@ $(function () {
 
 function initialView(){
     $("#initial-view").show();
+    $("#menu").show();
     $("#font-option").hide(); 
     $("#get-quote-view").hide();
     $("#product-view").hide();
